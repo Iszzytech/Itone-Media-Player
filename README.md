@@ -1,7 +1,6 @@
 # ABOUT THE APP
 The ITONE MEDIA PLAYER is a multimedia player, with multi-purpose functionality.
 It is embedded with the music player functionality and also with the video player functionality.
-
 It consist of some other added functionality such as the voice recognition system and a settings page which is still not yet fully 
 functional.
 The software fetches music files from the user local machine and loads them up on the software where you can have access
@@ -12,13 +11,13 @@ to the system.
 User also can watch movies on the software and also change the view -> FullScreen | Halfscreen 
 
 ## SOFTWARE IMAGES
-![Dashboard UX/UI View](/Software Image/Dashboard.jpg)
+![Dashboard UX/UI View](/Software-Image/Dashboard.jpg)
 
-![Video Section Half Screen Mode](/Software Image/HalfScreen.jpg)
+![Video Section Half Screen Mode](/Software-Image/HalfScreen.jpg)
 
-![A quickplaylist to access your music files](/Software Image/quickplaylist.jpg)
+![A quickplaylist to access your music files](/Software-Image/quickplaylist.jpg)
 
-![Settings section where changes can be made to the system](/Software Image/settings_mic.jpg)
+![Settings section where changes can be made to the system](/Software-Image/settings_mic.jpg)
 
 
 ## REQUIREMENT ANALYSIS
