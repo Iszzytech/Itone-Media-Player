@@ -11,6 +11,16 @@ system allow them to perform operation on the software by just spilling out some
 to the system.
 User also can watch movies on the software and also change the view -> FullScreen | Halfscreen 
 
+## SOFTWARE IMAGES
+![Dashboard UX/UI View](/Software Image/Dashboard.jpg)
+
+![Video Section Half Screen Mode](/Software Image/HalfScreen.jpg)
+
+![A quickplaylist to access your music files](/Software Image/quickplaylist.jpg)
+
+![Settings section where changes can be made to the system](/Software Image/settings_mic.jpg)
+
+
 ## REQUIREMENT ANALYSIS
 The requirement analysis in this case, consist of the following:
 1. Microsoft Visual Studio 2015 (IDE)
