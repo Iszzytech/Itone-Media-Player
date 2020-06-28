@@ -11,13 +11,13 @@ to the system.
 User also can watch movies on the software and also change the view -> FullScreen | Halfscreen 
 
 ## SOFTWARE IMAGES
-![Dashboard UX/UI View](/Software-Image/Dashboard.jpg)
+![Dashboard UX/UI View](/Software%20Image/Dashboard.jpg)
 
-![Video Section Half Screen Mode](/Software-Image/HalfScreen.jpg)
+![Video Section Half Screen Mode](/Software%20Image/HalfScreen.jpg)
 
-![A quickplaylist to access your music files](/Software-Image/quickplaylist.jpg)
+![A quickplaylist to access your music files](/Software%20Image/quickplaylist.jpg)
 
-![Settings section where changes can be made to the system](/Software-Image/settings_mic.jpg)
+![Settings section where changes can be made to the system](/Software%20Image/settings_mic.jpg)
 
 
 ## REQUIREMENT ANALYSIS
