@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Itone Media Player", "Itone Media Player\Itone Media Player.vbproj", "{7AEA788A-9244-4039-804E-0FC4C1A7AEAF}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{8FDC787E-DD6B-4555-9EE1-6E6DDE8E5B56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AEA788A-9244-4039-804E-0FC4C1A7AEAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AEA788A-9244-4039-804E-0FC4C1A7AEAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AEA788A-9244-4039-804E-0FC4C1A7AEAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AEA788A-9244-4039-804E-0FC4C1A7AEAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FDC787E-DD6B-4555-9EE1-6E6DDE8E5B56}.Debug|Any CPU.ActiveCfg = Debug
+		{8FDC787E-DD6B-4555-9EE1-6E6DDE8E5B56}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

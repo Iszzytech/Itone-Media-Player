@@ -1,0 +1,42 @@
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\bin\Debug\Itone Media Player.exe.config
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Interop.WMPLib.dll
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone Media Player.vbproj.ResolveComReference.cache
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\bin\Debug\Itone Media Player.exe
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\bin\Debug\Itone Media Player.pdb
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\bin\Debug\Itone Media Player.xml
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\bin\Debug\colorslider.dll
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\bin\Debug\Guna.UI.dll
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\bin\Debug\MetroFramework.dll
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\bin\Debug\Interop.WMPLib.dll
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone_Media_Player.Form1.resources
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone_Media_Player.Form2.resources
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone_Media_Player.form_message.resources
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone_Media_Player.Resources.resources
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone_Media_Player.Startup_page.resources
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone_Media_Player.Tab_About.resources
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone_Media_Player.Tab_Artist.resources
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone_Media_Player.Tab_Audio_Command.resources
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone_Media_Player.Tab_Audio_Playlist.resources
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone_Media_Player.Tab_blues_artist.resources
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone_Media_Player.Tab_Favourite_Artist.resources
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone_Media_Player.Tab_Gospel_artist.resources
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone_Media_Player.Tab_hiphop_artist.resources
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone_Media_Player.Tab_Listening.resources
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone_Media_Player.Tab_Microphone.resources
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone_Media_Player.Tab_Nigerian_artist.resources
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone_Media_Player.Tab_NowPlaying.resources
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone_Media_Player.Tab_Quick_Playlist.resources
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone_Media_Player.Tab_Recording.resources
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone_Media_Player.Tab_Settings.resources
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone_Media_Player.Tab_Themes.resources
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone_Media_Player.Tab_Transparent.resources
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone_Media_Player.Tab_Video_Playlist.resources
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone_Media_Player.Tab_Voice_Assistant.resources
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone_Media_Player.Tab_Volume.resources
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone Media Player.vbproj.GenerateResource.Cache
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone Media Player.exe
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone Media Player.xml
+C:\Users\Dell\documents\visual studio 2015\Projects\Itone Media Player\Itone Media Player\obj\Debug\Itone Media Player.pdb

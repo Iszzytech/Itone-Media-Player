@@ -1,0 +1,789 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7AEA788A-9244-4039-804E-0FC4C1A7AEAF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Itone_Media_Player.My.MyApplication</StartupObject>
+    <RootNamespace>Itone_Media_Player</RootNamespace>
+    <AssemblyName>Itone Media Player</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Itone Media Player.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Itone Media Player.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ItoneMusicPlayer_Logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\..\..\Downloads\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="colorslider">
+      <HintPath>..\..\..\..\..\Downloads\colorslider.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\..\..\..\Downloads\Compressed\Guna.UI-Framework-Lib-master\Guna.UI-Framework-Lib-master\Guna.UI-Framework-Lib\.net 3.5\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework">
+      <HintPath>..\..\..\..\..\Downloads\MetroFramework\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_message.Designer.vb">
+      <DependentUpon>form_message.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_message.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Startup_page.Designer.vb">
+      <DependentUpon>Startup_page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Startup_page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tab_About.Designer.vb">
+      <DependentUpon>Tab_About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tab_About.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab_Artist.Designer.vb">
+      <DependentUpon>Tab_Artist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tab_Artist.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab_Audio_Command.Designer.vb">
+      <DependentUpon>Tab_Audio_Command.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tab_Audio_Command.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab_Audio_Playlist.Designer.vb">
+      <DependentUpon>Tab_Audio_Playlist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tab_Audio_Playlist.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab_blues_artist.Designer.vb">
+      <DependentUpon>Tab_blues_artist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tab_blues_artist.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab_Favourite_Artist.Designer.vb">
+      <DependentUpon>Tab_Favourite_Artist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tab_Favourite_Artist.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab_Gospel_artist.Designer.vb">
+      <DependentUpon>Tab_Gospel_artist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tab_Gospel_artist.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab_hiphop_artist.Designer.vb">
+      <DependentUpon>Tab_hiphop_artist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tab_hiphop_artist.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab_Listening.Designer.vb">
+      <DependentUpon>Tab_Listening.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tab_Listening.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab_Microphone.Designer.vb">
+      <DependentUpon>Tab_Microphone.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tab_Microphone.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab_Nigerian_artist.Designer.vb">
+      <DependentUpon>Tab_Nigerian_artist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tab_Nigerian_artist.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab_NowPlaying.Designer.vb">
+      <DependentUpon>Tab_NowPlaying.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tab_NowPlaying.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab_Quick_Playlist.Designer.vb">
+      <DependentUpon>Tab_Quick_Playlist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tab_Quick_Playlist.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab_Recording.Designer.vb">
+      <DependentUpon>Tab_Recording.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tab_Recording.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab_Settings.Designer.vb">
+      <DependentUpon>Tab_Settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tab_Settings.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab_Themes.Designer.vb">
+      <DependentUpon>Tab_Themes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tab_Themes.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab_Transparent.Designer.vb">
+      <DependentUpon>Tab_Transparent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tab_Transparent.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab_Video_Playlist.Designer.vb">
+      <DependentUpon>Tab_Video_Playlist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tab_Video_Playlist.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab_Voice_Assistant.Designer.vb">
+      <DependentUpon>Tab_Voice_Assistant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tab_Voice_Assistant.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab_Volume.Designer.vb">
+      <DependentUpon>Tab_Volume.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tab_Volume.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_message.resx">
+      <DependentUpon>form_message.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Startup_page.resx">
+      <DependentUpon>Startup_page.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab_About.resx">
+      <DependentUpon>Tab_About.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab_Artist.resx">
+      <DependentUpon>Tab_Artist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab_Audio_Command.resx">
+      <DependentUpon>Tab_Audio_Command.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab_Audio_Playlist.resx">
+      <DependentUpon>Tab_Audio_Playlist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab_blues_artist.resx">
+      <DependentUpon>Tab_blues_artist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab_Favourite_Artist.resx">
+      <DependentUpon>Tab_Favourite_Artist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab_Gospel_artist.resx">
+      <DependentUpon>Tab_Gospel_artist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab_hiphop_artist.resx">
+      <DependentUpon>Tab_hiphop_artist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab_Listening.resx">
+      <DependentUpon>Tab_Listening.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab_Microphone.resx">
+      <DependentUpon>Tab_Microphone.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab_Nigerian_artist.resx">
+      <DependentUpon>Tab_Nigerian_artist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab_NowPlaying.resx">
+      <DependentUpon>Tab_NowPlaying.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab_Quick_Playlist.resx">
+      <DependentUpon>Tab_Quick_Playlist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab_Recording.resx">
+      <DependentUpon>Tab_Recording.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab_Settings.resx">
+      <DependentUpon>Tab_Settings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab_Themes.resx">
+      <DependentUpon>Tab_Themes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab_Transparent.resx">
+      <DependentUpon>Tab_Transparent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab_Video_Playlist.resx">
+      <DependentUpon>Tab_Video_Playlist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab_Voice_Assistant.resx">
+      <DependentUpon>Tab_Voice_Assistant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab_Volume.resx">
+      <DependentUpon>Tab_Volume.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adult-band-concert-dark-838702.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spotify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Searchbtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spot2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closecol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimizecol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximizecol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftarrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightarrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ITONEZ-ICON-TRANPARENT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\55-559541_soundwave-transparent-sound-wave-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\browse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\browse small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\browse_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\browse_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Playlisticon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\artist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\artist1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\favorite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settingicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Playlarge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forwardbtn_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playsweet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playlist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fullscreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\normalscreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\repeat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forwardgreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playgreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pausegreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playlistgreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fullscreengreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\normalscreengreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\repeatgreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\volume.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noaudio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ITONEZbg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\muscicat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audiofile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vidcam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\musicrec.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camplaylist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addfile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deletefile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchgreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\micblocked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filedel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sidebar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sidebarb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ITONEBGX.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ITONEBGX1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ITONE-Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ITONEZ1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ITONEZ2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ITONEZfull.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ITONEZfix.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ITONEZq.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ITONEZe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ITONEZf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause ios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play IOS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theme_default.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theme_deepbluesea.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theme_deepgray.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theme_deepmagnetblue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theme_deepred.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theme_deepyellow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newimage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transparent_wave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gifphytrans.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\artistN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hiphop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hiphop1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hiphop2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hiphop3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hiphop4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hiphop6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hiphop7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hiphop8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hiphop9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hiphop10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hiphop11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hiphop12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hiphop13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hiphop14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hiphop15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gospel1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gospel2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gospel3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gospel4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gospel5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gospel6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gospel7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gospel8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gospel9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gospel10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gospel13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gospel14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gospel15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gospel16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nartist1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nartist2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nartist3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nartist4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nartist5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nartist6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nartist7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nartist8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nartist9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nartist10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nartist11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nartist12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nartist13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\favourimg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\churchy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\africa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok_hand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\good.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\good2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flashauto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\system_info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settingiconwhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ITONEZ_FINALE1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ItoneMusicPlayer_Logo.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
