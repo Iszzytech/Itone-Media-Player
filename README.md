@@ -80,9 +80,9 @@ and also have a default pictures for music files without images attached. There 
 software artist page. So that, users favourite artist image would be display above all the music tracks related to the artist.
 
 ### How to view the software
-You can view the software either by going through this directory 'C:\Users\Dell\Documents\Visual Studio 2015\Projects\Itone Media Player\Itone Media Player\bin\Debug\ItoneMediaApplication' click on the one with the icon.
+Just install the windows installer on your machine if you are a using windows although the installer is a little bit outdated because some changes have been made after the setup launch.
 
-Or better still just install the windows installer on your machine if you are a using windows although the installer is a little bit outdated because some changes have been made after the setup launch.
+View Video Tutorial Here -> https://www.youtube.com/watch?v=rGFCDif6Z_o
 
 ### Special Thanks
 SJ - Peris
